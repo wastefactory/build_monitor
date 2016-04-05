@@ -1,0 +1,31 @@
+<div id="header">
+	<span>Nucleus Build Status</span>
+	<span class="user">
+		<i class="fa fa-ellipsis-v"></i>        		
+	</span>	   	
+</div>
+
+<div id="content">
+	<ul class="jobs">
+	    <li *ngFor="#job of jobs" class="{{job.color}}">
+	        <div class="header">
+	        	{{job.name}} 
+	        	<span class="time">21HRS AGO</span>
+	        	<span class="loader" *ngIf="job.color == 'animate'">
+					<div class="loading">
+					  <div class="loading-bar"></div>
+					  <div class="loading-bar"></div>
+					  <div class="loading-bar"></div>
+					  <div class="loading-bar"></div>
+					</div>	        		
+	        	</span>
+	        	<span class="loader" *ngIf="job.color != 'animate'">
+					<i class="fa fa-ellipsis-v"></i>        		
+	        	</span>	        	
+	        </div>
+	        <div class="info">
+	        	<span *ngIf="job.color == 'red'">FAILED</span>
+	        </div>
+	    </li>
+	</ul>	
+</div>

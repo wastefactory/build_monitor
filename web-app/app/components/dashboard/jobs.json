@@ -1,0 +1,60 @@
+{
+  "description" : null,
+  "jobs" : [
+    {
+      "name" : "Build and Test - Core",
+      "url" : "http://sgci01:8080/job/Build%20and%20Test%20-%20Core/",
+      "color" : "blue"
+    },
+    {
+      "name" : "Build and Test - Dashboard",
+      "url" : "http://sgci01:8080/job/Build%20and%20Test%20-%20Dashboard/",
+      "color" : "animate"
+    },
+    {
+      "name" : "Cleanup Nucleus workspace",
+      "url" : "http://sgci01:8080/job/Cleanup%20Nucleus%20workspace/",
+      "color" : "animate"
+    },
+    {
+      "name" : "Deploy Core to Dev",
+      "url" : "http://sgci01:8080/job/Deploy%20Core%20to%20Dev/",
+      "color" : "blue"
+    },
+    {
+      "name" : "Deploy Core to QA",
+      "url" : "http://sgci01:8080/job/Deploy%20Core%20to%20QA/",
+      "color" : "animate"
+    },
+    {
+      "name" : "Deploy Core to UAT",
+      "url" : "http://sgci01:8080/job/Deploy%20Core%20to%20UAT/",
+      "color" : "red"
+    },
+    {
+      "name" : "Deploy Dashboard to Dev",
+      "url" : "http://sgci01:8080/job/Deploy%20Dashboard%20to%20Dev/",
+      "color" : "blue"
+    },
+    {
+      "name" : "Deploy Dashboard to QA",
+      "url" : "http://sgci01:8080/job/Deploy%20Dashboard%20to%20QA/",
+      "color" : "red"
+    },
+    {
+      "name" : "Deploy Dashboard to UAT",
+      "url" : "http://sgci01:8080/job/Deploy%20Dashboard%20to%20UAT/",
+      "color" : "blue"
+    },
+    {
+      "name" : "Functional Test Dashboard",
+      "url" : "http://sgci01:8080/job/Functional%20Test%20Dashboard/",
+      "color" : "blue"
+    }
+  ],
+  "name" : "Nucleus",
+  "property" : [
+    
+  ],
+  "url" : "http://sgci01:8080/view/Nucleus/"
+}

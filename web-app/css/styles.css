@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import 'jobs.css';
+
+/* Master Styles */
+h1 {
+  color: #FFF; 
+  font-size: 15px;
+}
+h2, h3 { 
+  color: #444;
+  font-weight: lighter;
+}
+body { 
+  	background-color: #EDECEC;
+	font-family: 'Open Sans', sans-serif;  
+	margin: 0px;
+}
+
+i{
+  cursor:pointer;
+}
+
+
+#header {
+    background-color:#1B2032;
+    margin-top:-17px;
+    height: 65px;
+}
+
+#header span{
+    line-height: 80px;
+    margin-left: 10px;	
+    color: white;
+}
+
+#header .user{
+    float:right;
+    margin-right: 20px;
+}
+
+#content{
+	background-color: #000;
+	margin-left: 15px;
+	/*margin-top: 100px;*/
+}
+
+/* 
+ * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
+ * for the full set of master styles used by the documentation samples
+ */
