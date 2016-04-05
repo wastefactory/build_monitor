@@ -1,5 +1,5 @@
-import {Component, View, OnInit} from 'angular2/core';
-import {DataService} from 'app/services/data.service';
+import {Component, OnInit} from 'angular2/core';
+import {DataService} from '../../services/data.service';
 import {Observable} from 'rxjs/Rx';
 
 @Component({
@@ -10,6 +10,7 @@ import {Observable} from 'rxjs/Rx';
 
 export class AppComponent implements OnInit {
   title = 'Nucleus Build Status';
+  jobs = [];
 
   constructor( private _DataService: DataService ) { }
 

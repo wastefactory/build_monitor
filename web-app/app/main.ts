@@ -12,7 +12,7 @@ class MyOptions extends RequestOptions {
       method: RequestMethod.Get,																																																														
       headers: new Headers({
         'Access-Control-Allow-Origin': '*'
-      });
+      })
     });
   }
 }
